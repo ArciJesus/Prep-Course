@@ -76,34 +76,39 @@ function tienenMismaLongitud(str1, str2) {
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
+  var menor = (num<90);
+  return menor;
   
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
-  // Tu código:
+  var mayor = (num>50);
+  return mayor;
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
-  // Tu código:
+  var resto = (x % y);
+  return resto;
   
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
-  // Tu código:
+  var Par = ((num%2) === 0 )
+  return Par;
   
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
-  // Tu código:
+  var impar = ((num%2) === 1 )
+  return impar;
   
 }
 
