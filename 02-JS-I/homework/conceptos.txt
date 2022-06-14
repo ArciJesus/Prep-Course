@@ -1,0 +1,7 @@
+Variables: Son valores que asignamos para utilizar más adelante en las operaciones.
+strings: son letras o caracteres que representan solo texto, siempra van entre comillas " " Ej: "Hola".
+Funciones: Son instrucciones que le indicamos al programa para que ejucute un codigo tantas veces como queramos.
+    Argumentos: son los valores que le damos a la funcion para que de ejecute.
+    Retunr: nos permite retornar un valor cuando se ejecute la funcion.
+Declaracion IF: nos ayuda a ejecutar un bloque de codigo dependiendo de una condicion.
+Valores Booleanos: son los valores de true o false, que utilizamos para daenos valores de verdad. Se utilizan mucho en las operaciones con condicionales.
