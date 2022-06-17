@@ -153,7 +153,11 @@ function esPrimo(numero) {
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
-  //Escribe tu código aquí
+  if (valor + 2 ===4){
+    return "Soy Verdadero"
+  } else {
+    return "Soy Falso"
+  }
 
 }
 
