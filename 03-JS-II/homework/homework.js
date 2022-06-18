@@ -67,19 +67,19 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color){
     case "blue":
-      return "This is blue"
+      return "This is blue";
     
     case "red":
-      return "This is red"
+      return "This is red";
       
-    case "grean":
-      return"This is grean"
+    case "green":
+      return"This is green";
       
     case "orange":
-      return "This is orange"
+      return "This is orange";
      
     default:
-      respuesta = "Color not found"
+      return  "Color not found";
        
   } 
 }
@@ -158,13 +158,13 @@ function esPrimo(numero) {
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
-  if (valor + 2 ===4){
-    return "Soy Verdadero"
-  } else {
-    return "Soy Falso"
+  if (valor === true ){
+    return "Soy verdadero"
+  } 
+    return "Soy falso"
   }
 
-}
+
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
@@ -175,7 +175,10 @@ function tablaDelSeis(){
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
-  //Escribe tu código aquí
+  if (numero> 99 && numero <1000) {
+    return true;
+} 
+  return false
   
 }
 
