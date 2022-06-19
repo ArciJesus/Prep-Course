@@ -1,0 +1,4 @@
+bucle FOR: se usa cuando se saben cuantas veces se tiene que repetir  un bucle.
+Operador "&&": este operador se usa para tener dos valores booleanos donde ambos sean true, para que siga avanzando el codigo.
+Operador "||": este operador se usar para tener dos valores booleanos donde basta con que uno sea true para que el codigo siga.
+Operador " ! ": Hace que los valores sean lo contrario al lo declarado, ejemplo: si un valor es true pasa a false, y si es false pasa a true.
