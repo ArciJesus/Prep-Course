@@ -55,42 +55,62 @@ function dePalabrasAFrase(palabras) {
   // Devuelve un string donde todas las palabras estén concatenadas
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
-  return  palabras[0] + " " + palabras[1] + " " + palabras[2];
+  return  palabras.join(" ")
 }
 
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
-  // Tu código:
+  for(var i = 0; i < array.length; i++) {
+    if(array[i] === elemento) {
+      return true;
+    }
+  }
+  return false;
 }
 
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
-  // Tu código:
+  var total = 0
+  for( var i = 0; i < numeros.length; i++){
+    total += numeros[i];
+  } return total;
 }
 
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
-  // Tu código:
+  var total = 0
+  for( var i = 0; i < resultadosTest.length; i++){
+    total += resultadosTest[i];
+  } return total / resultadosTest.length ;
 }
 
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
-  // Tu código:
+  var masAlto = Math.max(...numeros);
+
+  return masAlto;
 }
 
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
-  // Escribe tu código aquí:
+
+if(arguments.length < 1) return 0;
+var total = 1;
+for(var i = 0; i < arguments.length; i++) {
+  total = total * arguments[i];
+}
+return total;
+
 }
 
 
