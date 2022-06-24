@@ -1,0 +1,1 @@
+array´s: son objetos donde podemos guardar datos, para ser utilizados mas adelante.
