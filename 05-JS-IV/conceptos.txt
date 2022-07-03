@@ -1,0 +1,5 @@
+Objetos: son elelemtos que almacenan informacion para ser utilizada mas adelante.
+Propiedades: es la informacion que contienen los elementos, cada propiedad tiene un valor. 
+Métodos: son funciones que declaran en las propiedades de un objeto.
+Bucle for…in: nos permite iterar en los objetos,  nos deja buscar por propiedad.
+Notación de puntos vs notación de corchetes: son las diferentes formas que podemos obtener los valores de un objeto,  dat notation:(objeto.propiedad), brake notation( [objeto][propiedad]).
