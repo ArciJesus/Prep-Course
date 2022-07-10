@@ -1,0 +1,2 @@
+prototype: nos sirve para agregar metodos a los objetos creados mediante la funcion constructora.
+Constructors (de Clases): con los constructor podemos crear plantillas de objetos que podemos reutilizar las veces que queramos.
