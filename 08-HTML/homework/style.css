@@ -19,5 +19,20 @@ img {
     background-color: plum ;
     padding: 50px;
     border: 10px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
     
 }
+
+.divClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
